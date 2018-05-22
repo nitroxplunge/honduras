@@ -41,13 +41,13 @@ body {
     top: calc(50% - 38px);
     width: 100%;
     text-align: center;
-    color: #000;
+    color: #fff;
     font: 400 15px/1.8 "Lato", sans-serif;
 }
 
 .caption span.border {
-    background-color: #111;
-    color: #fff;
+    background-color: #fff;
+    color: #111;
     padding: 20px;
     padding-right: 10px;
     font-size: 30px;
@@ -75,8 +75,8 @@ body {
 }
 
 .message span.border {
-    background-color: #111;
-    color: #fff;
+    background-color: #fff;
+    color: #111;
     padding: 10px;
     padding-right: 5px;
     font-size: 16px;

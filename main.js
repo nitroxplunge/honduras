@@ -1,4 +1,4 @@
-var scrolllen = 3;
+var scrolllen = 2;
 var scrollcurr = 0;
 
 $(document).ready(function (){
