@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#headerimg {
+    height: 100%;
+}
+
+.parralax { 
+    background-image: url("header.jpg");
+
+    height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    padding: 0px 100px;
+    margin: 0;
+}
+
+.caption {
+    position: absolute;
+    top: calc(50% - 38px);
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    padding-right: 10px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    width: 100%;
+}
+
+@import "compass/css3";
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+.message {
+  position: absolute;
+  bottom: 50px;
+
+  width: 100%;
+  
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: rgb(75, 75, 255);
+  text-align: center;
+  
+  animation: fadeIn 1.5s infinite alternate;
+}
+
+.message span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+    padding-right: 5px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    width: 100%;
+}
+
+.scrolltarget {
+    width: 0;
+    height: 0;
+}
