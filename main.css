@@ -5,19 +5,19 @@ body {
 }
 
 .title {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     font-family: 'Gothic A1', sans-serif;
 }
 
-.header {
-    font-size: 30px;
+.header {s
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Gothic A1', sans-serif;
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Gothic A1', sans-serif;
 }
 
