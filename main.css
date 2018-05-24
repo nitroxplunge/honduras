@@ -16,6 +16,11 @@ body {
     font-family: 'Gothic A1', sans-serif;
 }
 
+p {
+    font-size: 20px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
 #headerimg {
     height: 100%;
 }
